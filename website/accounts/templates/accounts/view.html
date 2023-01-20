@@ -1,0 +1,32 @@
+{% extends 'accounts/base.html' %}
+
+{% block title %}Account Detail{% endblock %}
+
+{% block content %}
+<div class="table-responsive">
+    <table class="table table-dark">
+        <tbody>
+            <tr>
+                <th scope="col">ID</th>
+                <td>{{ account.id }}</td>
+            </tr>
+            <tr>
+                <th scope="col">Name</th>
+                <td>{{ account.name }}</td>
+            </tr>
+            <tr>
+                <th scope="col">Owner</th>
+                <td>{{ account.owner }}</td>
+            </tr>
+            <tr>
+                <th scope="col">Created On</th>
+                <td>{{ account.created_on }}</td>
+            </tr>
+            <tr>
+                <th scope="col">Updated On</th>
+                <td>{{ account.updated_on }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}
