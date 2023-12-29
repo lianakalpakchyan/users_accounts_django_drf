@@ -5,7 +5,7 @@ This application has a Django web interface and DRF API to show registered users
 
 
 ```bash
-git clone git@github.com:LianaSmile/users_accounts_django_drf.git
+git clone https://github.com/lianakalpakchyan/users_accounts_django_drf.git
 python3 -m venv venv
 source venv/bin/activate
 cd website
